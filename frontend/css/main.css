@@ -1,0 +1,175 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+  color: #38bdf8;
+}
+
+.header p {
+  margin-top: 8px;
+  color: #cbd5f5;
+}
+
+/* MAIN CONTAINER */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* CARDS */
+.form-card,
+.roadmap-card,
+.chatbot-card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* FORM */
+.form-card h2 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+.form-card input,
+.form-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 12px;
+  background: #38bdf8;
+  color: #020617;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-card button:hover {
+  background: #0ea5e9;
+}
+
+/* ROADMAP */
+.roadmap-card h2 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+#roadmapContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.placeholder {
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.roadmap-step {
+  background: #020617;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.roadmap-step h3 {
+  color: #38bdf8;
+  margin-bottom: 6px;
+}
+
+.roadmap-step p {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #cbd5f5;
+}
+
+/* CHATBOT */
+.chatbot-card h2 {
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.chat-messages {
+  background: #020617;
+  height: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-message {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.chat-user {
+  color: #38bdf8;
+}
+
+.chat-bot {
+  color: #22c55e;
+}
+
+/* CHAT INPUT */
+.chat-input {
+  display: flex;
+  gap: 8px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.chat-input button {
+  padding: 10px 14px;
+  background: #22c55e;
+  color: #020617;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background: #16a34a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

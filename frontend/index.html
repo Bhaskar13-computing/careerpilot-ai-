@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CareerPilot AI</title>
+ <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>CareerPilot AI</h1>
+    <p>Your personalized engineering roadmap</p>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <div class="container">
+
+    <!-- FORM SECTION -->
+    <div class="form-card">
+      <h2>Get Your Roadmap</h2>
+
+      <input type="text" id="name" placeholder="Enter your name" />
+
+      <select id="branch">
+        <option value="">Select Branch</option>
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="MECH">MECH</option>
+      </select>
+
+      <select id="year">
+        <option value="">Select Year</option>
+        <option value="1">1st Year</option>
+        <option value="2">2nd Year</option>
+        <option value="3">3rd Year</option>
+        <option value="4">4th Year</option>
+      </select>
+
+      <select id="interest">
+        <option value="">Select Interest</option>
+        <option value="SoftwareDevelopment">Software Development</option>
+        <option value="CoreEngineering">Core Engineering</option>
+        <option value="GovernmentJobs">Government Jobs</option>
+        <option value="HigherStudies">Higher Studies</option>
+        <option value="Business">Business / Startup</option>
+      </select>
+
+      <button id="generateBtn">Generate Roadmap</button>
+    </div>
+
+    <!-- ROADMAP SECTION -->
+    <div class="roadmap-card">
+      <h2>Roadmap</h2>
+      <div id="roadmapContainer">
+        <p class="placeholder">
+          Fill the form and click "Generate Roadmap" to see your path.
+        </p>
+      </div>
+    </div>
+
+    <!-- CHATBOT SECTION -->
+    <div class="chatbot-card">
+      <h2>AI Guide</h2>
+      <div id="chatMessages" class="chat-messages"></div>
+
+      <div class="chat-input">
+        <input
+          type="text"
+          id="chatInput"
+          placeholder="Ask something..."
+        />
+        <button id="sendChatBtn">Send</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JS FILES -->
+<script src="./js/roadmap.js"></script>
+<script src="./js/chatbot.js"></script>
+</body>
+</html>

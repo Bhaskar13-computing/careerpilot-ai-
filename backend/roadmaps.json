@@ -1,0 +1,227 @@
+{
+  "CSE_1_SoftwareDevelopment": [
+    {
+      "step": 1,
+      "title": "Programming Basics",
+      "learn": ["C / Python basics", "Logic building", "Problem solving"],
+      "skills": ["Programming mindset"],
+      "tools": ["VS Code"],
+      "outcome": "Able to write basic programs"
+    },
+    {
+      "step": 2,
+      "title": "Foundational Mathematics",
+      "learn": ["Discrete maths", "Basic probability"],
+      "skills": ["Analytical thinking"],
+      "tools": ["Textbooks"],
+      "outcome": "Math foundation for CS"
+    },
+    {
+      "step": 3,
+      "title": "Introduction to Computers",
+      "learn": ["CPU", "Memory", "OS basics"],
+      "skills": ["System understanding"],
+      "tools": ["Linux"],
+      "outcome": "Understands computer internals"
+    }
+  ],
+
+  "CSE_1_CoreEngineering": [
+    {
+      "step": 1,
+      "title": "Engineering Mathematics",
+      "learn": ["Linear algebra", "Calculus"],
+      "skills": ["Problem solving"],
+      "tools": ["Math textbooks"],
+      "outcome": "Strong mathematical base"
+    },
+    {
+      "step": 2,
+      "title": "Digital Logic",
+      "learn": ["Boolean algebra", "Logic gates"],
+      "skills": ["Logical design"],
+      "tools": ["Logic simulators"],
+      "outcome": "Understands digital systems"
+    }
+  ],
+
+  "CSE_1_GovernmentJobs": [
+    {
+      "step": 1,
+      "title": "Aptitude Foundations",
+      "learn": ["Quantitative aptitude", "Logical reasoning"],
+      "skills": ["Speed & accuracy"],
+      "tools": ["Aptitude books"],
+      "outcome": "Base for competitive exams"
+    },
+    {
+      "step": 2,
+      "title": "English & GK",
+      "learn": ["Basic grammar", "Current affairs"],
+      "skills": ["Comprehension"],
+      "tools": ["Newspapers"],
+      "outcome": "Improved exam readiness"
+    }
+  ],
+
+  "CSE_1_HigherStudies": [
+    {
+      "step": 1,
+      "title": "Academic Foundations",
+      "learn": ["Maths", "Programming basics"],
+      "skills": ["Analytical thinking"],
+      "tools": ["Standard textbooks"],
+      "outcome": "Strong academic base"
+    },
+    {
+      "step": 2,
+      "title": "Research Awareness",
+      "learn": ["What is research", "How MS/PhD works"],
+      "skills": ["Academic planning"],
+      "tools": ["Research blogs"],
+      "outcome": "Clear higher-studies direction"
+    }
+  ],
+
+  "CSE_1_Business": [
+    {
+      "step": 1,
+      "title": "Business Fundamentals",
+      "learn": ["What is business", "Startup mindset"],
+      "skills": ["Risk analysis"],
+      "tools": ["Books", "Podcasts"],
+      "outcome": "Entrepreneurial thinking"
+    },
+    {
+      "step": 2,
+      "title": "Problem Identification",
+      "learn": ["Real-world problems", "User pain points"],
+      "skills": ["Observation"],
+      "tools": ["Surveys"],
+      "outcome": "Valid business ideas"
+    }
+  ],
+
+  "CSE_2_SoftwareDevelopment": [
+    {
+      "step": 1,
+      "title": "Data Structures",
+      "learn": ["Arrays", "Stacks", "Queues"],
+      "skills": ["Problem solving"],
+      "tools": ["LeetCode"],
+      "outcome": "DSA basics"
+    },
+    {
+      "step": 2,
+      "title": "Web Development",
+      "learn": ["HTML", "CSS", "JavaScript"],
+      "skills": ["Frontend development"],
+      "tools": ["VS Code", "Browser"],
+      "outcome": "Build simple websites"
+    }
+  ],
+
+  "CSE_3_SoftwareDevelopment": [
+    {
+      "step": 1,
+      "title": "Advanced DSA",
+      "learn": ["Trees", "Graphs", "DP"],
+      "skills": ["Algorithmic thinking"],
+      "tools": ["LeetCode"],
+      "outcome": "Interview-ready DSA"
+    },
+    {
+      "step": 2,
+      "title": "Backend Development",
+      "learn": ["APIs", "Databases"],
+      "skills": ["Backend logic"],
+      "tools": ["Flask", "MySQL"],
+      "outcome": "Full-stack basics"
+    }
+  ],
+
+  "CSE_4_SoftwareDevelopment": [
+    {
+      "step": 1,
+      "title": "System Design",
+      "learn": ["Scalability", "Load balancing"],
+      "skills": ["Architectural thinking"],
+      "tools": ["Design docs"],
+      "outcome": "Industry-level understanding"
+    },
+    {
+      "step": 2,
+      "title": "Placement Preparation",
+      "learn": ["Mock interviews", "Resume"],
+      "skills": ["Communication"],
+      "tools": ["Interview platforms"],
+      "outcome": "Job-ready software engineer"
+    }
+  ],
+
+  "MECH_1_CoreEngineering": [
+    {
+      "step": 1,
+      "title": "Engineering Mechanics",
+      "learn": ["Forces", "Equilibrium"],
+      "skills": ["Analytical thinking"],
+      "tools": ["Textbooks"],
+      "outcome": "Mechanical fundamentals"
+    }
+  ],
+
+  "MECH_2_CoreEngineering": [
+    {
+      "step": 1,
+      "title": "Thermodynamics",
+      "learn": ["Laws of thermodynamics", "Cycles"],
+      "skills": ["Thermal analysis"],
+      "tools": ["Textbooks"],
+      "outcome": "Thermo mastery"
+    }
+  ],
+
+  "MECH_3_CoreEngineering": [
+    {
+      "step": 1,
+      "title": "Machine Design",
+      "learn": ["Failure theories", "Design principles"],
+      "skills": ["Design thinking"],
+      "tools": ["SolidWorks"],
+      "outcome": "Design-ready engineer"
+    }
+  ],
+
+  "MECH_4_GovernmentJobs": [
+    {
+      "step": 1,
+      "title": "GATE Preparation",
+      "learn": ["All core ME subjects"],
+      "skills": ["Exam focus"],
+      "tools": ["GATE material"],
+      "outcome": "Ready for PSU exams"
+    }
+  ],
+
+  "ECE_1_CoreEngineering": [
+    {
+      "step": 1,
+      "title": "Basic Electronics",
+      "learn": ["Diodes", "Transistors"],
+      "skills": ["Circuit analysis"],
+      "tools": ["Multimeter"],
+      "outcome": "Electronics basics"
+    }
+  ],
+
+  "EEE_1_CoreEngineering": [
+    {
+      "step": 1,
+      "title": "Electrical Fundamentals",
+      "learn": ["Ohm’s law", "Kirchhoff laws"],
+      "skills": ["Circuit solving"],
+      "tools": ["Textbooks"],
+      "outcome": "Electrical basics"
+    }
+  ]
+}
