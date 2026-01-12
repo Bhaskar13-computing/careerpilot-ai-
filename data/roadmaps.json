@@ -1,3 +1,41 @@
-{}
-
+{
+  "Software Development": {
+    "1": {
+      "title": "Foundations of Software Development",
+      "steps": [
+        "Learn programming basics with C or Python.",
+        "Understand problem-solving and basic DSA.",
+        "Learn Git and GitHub fundamentals.",
+        "Build simple console and mini web projects."
+      ]
+    },
+    "2": {
+      "title": "Intermediate Development Skills",
+      "steps": [
+        "Deepen DSA knowledge with arrays, strings, recursion.",
+        "Learn HTML, CSS, and JavaScript properly.",
+        "Build static and dynamic websites.",
+        "Start contributing small projects to GitHub."
+      ]
+    },
+    "3": {
+      "title": "Advanced Full-Stack Development",
+      "steps": [
+        "Learn React or another frontend framework.",
+        "Learn backend development with Flask or Node.js.",
+        "Work with databases like MySQL or MongoDB.",
+        "Build complete full-stack projects."
+      ]
+    },
+    "4": {
+      "title": "Industry-Ready Software Engineer",
+      "steps": [
+        "System design basics.",
+        "Advanced DSA and competitive programming.",
+        "Internships, open-source contributions.",
+        "Prepare for interviews and real-world projects."
+      ]
+    }
+  }
+}
 
