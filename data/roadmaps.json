@@ -1,41 +1,496 @@
 {
-  "Software Development": {
-    "1": {
-      "title": "Foundations of Software Development",
-      "steps": [
-        "Learn programming basics with C or Python.",
-        "Understand problem-solving and basic DSA.",
-        "Learn Git and GitHub fundamentals.",
-        "Build simple console and mini web projects."
+  "interests": {
+    "Software Development": {
+      "description": "Build modern software applications and systems",
+      "1": [
+        {
+          "title": "Programming Fundamentals",
+          "description": "Master the basics of programming with Python or Java. Learn variables, loops, conditions, and functions.",
+          "skills": ["Python", "Java", "Problem Solving", "Logic Building"],
+          "tools": ["VS Code", "PyCharm", "Git"],
+          "outcome": "Ability to write basic programs and solve simple algorithmic problems"
+        },
+        {
+          "title": "Data Structures Basics",
+          "description": "Learn fundamental data structures like arrays, linked lists, stacks, and queues.",
+          "skills": ["Arrays", "Linked Lists", "Stacks", "Queues", "Time Complexity"],
+          "tools": ["LeetCode", "HackerRank", "Coding Ninjas"],
+          "outcome": "Understand how to organize and manipulate data efficiently"
+        },
+        {
+          "title": "Web Development Introduction",
+          "description": "Learn HTML, CSS, and basic JavaScript to build static websites.",
+          "skills": ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+          "tools": ["Chrome DevTools", "CodePen", "GitHub Pages"],
+          "outcome": "Create 3-5 static responsive websites"
+        },
+        {
+          "title": "Version Control",
+          "description": "Master Git and GitHub for collaborative coding and version management.",
+          "skills": ["Git", "GitHub", "Branching", "Pull Requests", "Collaboration"],
+          "tools": ["Git", "GitHub", "GitKraken"],
+          "outcome": "Manage code versions and collaborate on team projects"
+        }
+      ],
+      "2": [
+        {
+          "title": "Advanced Data Structures",
+          "description": "Study trees, graphs, heaps, and hash tables. Practice solving medium-level problems.",
+          "skills": ["Trees", "Graphs", "Heaps", "Hash Tables", "Algorithm Design"],
+          "tools": ["LeetCode", "Codeforces", "GeeksforGeeks"],
+          "outcome": "Solve 100+ DSA problems and optimize solutions"
+        },
+        {
+          "title": "Backend Development",
+          "description": "Learn server-side programming with Node.js, Express, or Django.",
+          "skills": ["Node.js", "Express", "Django", "REST APIs", "HTTP Methods"],
+          "tools": ["Postman", "MongoDB", "PostgreSQL"],
+          "outcome": "Build RESTful APIs and connect them to databases"
+        },
+        {
+          "title": "Database Management",
+          "description": "Master SQL and NoSQL databases. Learn CRUD operations and query optimization.",
+          "skills": ["SQL", "MongoDB", "Database Design", "Indexing", "Queries"],
+          "tools": ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+          "outcome": "Design and manage relational and non-relational databases"
+        },
+        {
+          "title": "Frontend Framework",
+          "description": "Learn React, Vue, or Angular for building dynamic single-page applications.",
+          "skills": ["React", "Component Design", "State Management", "Hooks", "Routing"],
+          "tools": ["React", "Redux", "Tailwind CSS", "Vite"],
+          "outcome": "Build 2-3 full-featured frontend applications"
+        }
+      ],
+      "3": [
+        {
+          "title": "System Design Fundamentals",
+          "description": "Learn how to design scalable systems. Understand load balancing, caching, and microservices.",
+          "skills": ["System Architecture", "Scalability", "Load Balancing", "Caching", "CAP Theorem"],
+          "tools": ["Redis", "Nginx", "Docker", "AWS"],
+          "outcome": "Design scalable systems handling millions of users"
+        },
+        {
+          "title": "DevOps and Cloud",
+          "description": "Learn Docker, Kubernetes, and cloud platforms like AWS or Azure.",
+          "skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Azure"],
+          "tools": ["Docker", "Jenkins", "GitHub Actions", "AWS EC2"],
+          "outcome": "Deploy applications to cloud with automated pipelines"
+        },
+        {
+          "title": "Full-Stack Projects",
+          "description": "Build 2-3 production-ready full-stack applications with authentication and payment integration.",
+          "skills": ["MERN Stack", "Authentication", "Payment APIs", "Security", "Testing"],
+          "tools": ["JWT", "Stripe", "Jest", "Cypress"],
+          "outcome": "Complete portfolio with deployed full-stack applications"
+        },
+        {
+          "title": "Open Source Contribution",
+          "description": "Start contributing to open-source projects on GitHub. Learn collaborative development.",
+          "skills": ["Code Review", "Documentation", "Issue Tracking", "Community Engagement"],
+          "tools": ["GitHub", "Open Source Projects", "Discord"],
+          "outcome": "Make 10+ meaningful contributions to open source"
+        }
+      ],
+      "4": [
+        {
+          "title": "Advanced System Design",
+          "description": "Master distributed systems, message queues, and real-time architectures.",
+          "skills": ["Distributed Systems", "Message Queues", "Event-Driven Architecture", "Consistency Models"],
+          "tools": ["Kafka", "RabbitMQ", "WebSockets", "gRPC"],
+          "outcome": "Design enterprise-level distributed systems"
+        },
+        {
+          "title": "Interview Preparation",
+          "description": "Practice advanced DSA, system design interviews, and behavioral questions.",
+          "skills": ["Advanced Algorithms", "Interview Strategies", "Communication", "Problem Solving"],
+          "tools": ["Pramp", "InterviewBit", "System Design Primer"],
+          "outcome": "Clear interviews at top tech companies"
+        },
+        {
+          "title": "Specialization Track",
+          "description": "Choose a specialization: Mobile Development, Cloud Architecture, or Security.",
+          "skills": ["Specialized Domain Knowledge", "Advanced Tools", "Best Practices"],
+          "tools": ["React Native", "AWS Solutions Architect", "OWASP"],
+          "outcome": "Become expert in chosen specialization"
+        },
+        {
+          "title": "Portfolio and Personal Brand",
+          "description": "Build a strong GitHub profile, technical blog, and LinkedIn presence.",
+          "skills": ["Technical Writing", "Networking", "Personal Branding", "Content Creation"],
+          "tools": ["LinkedIn", "Medium", "Dev.to", "GitHub"],
+          "outcome": "Stand out in job market with strong online presence"
+        }
       ]
     },
-    "2": {
-      "title": "Intermediate Development Skills",
-      "steps": [
-        "Deepen DSA knowledge with arrays, strings, recursion.",
-        "Learn HTML, CSS, and JavaScript properly.",
-        "Build static and dynamic websites.",
-        "Start contributing small projects to GitHub."
+    "Data Science": {
+      "description": "Analyze data and build machine learning models",
+      "1": [
+        {
+          "title": "Python for Data Science",
+          "description": "Master Python programming with focus on data manipulation and analysis.",
+          "skills": ["Python", "NumPy", "Pandas", "Basic Statistics"],
+          "tools": ["Jupyter Notebook", "Anaconda", "Google Colab"],
+          "outcome": "Write Python scripts for data analysis tasks"
+        },
+        {
+          "title": "Mathematics Foundation",
+          "description": "Build strong foundation in linear algebra, calculus, and probability.",
+          "skills": ["Linear Algebra", "Calculus", "Probability", "Statistics"],
+          "tools": ["Khan Academy", "3Blue1Brown", "Coursera"],
+          "outcome": "Understand mathematical concepts behind ML algorithms"
+        },
+        {
+          "title": "Data Visualization",
+          "description": "Learn to create insightful visualizations using Matplotlib and Seaborn.",
+          "skills": ["Matplotlib", "Seaborn", "Data Storytelling", "Chart Selection"],
+          "tools": ["Matplotlib", "Seaborn", "Plotly", "Tableau"],
+          "outcome": "Create compelling visual stories from data"
+        },
+        {
+          "title": "SQL and Databases",
+          "description": "Master SQL queries for data extraction and manipulation.",
+          "skills": ["SQL", "Joins", "Aggregations", "Subqueries", "Database Basics"],
+          "tools": ["MySQL", "PostgreSQL", "SQLite", "Mode Analytics"],
+          "outcome": "Extract and analyze data from relational databases"
+        }
+      ],
+      "2": [
+        {
+          "title": "Machine Learning Fundamentals",
+          "description": "Learn supervised learning algorithms: regression, classification, and decision trees.",
+          "skills": ["Regression", "Classification", "Decision Trees", "Model Evaluation"],
+          "tools": ["scikit-learn", "pandas", "NumPy"],
+          "outcome": "Build predictive models for real-world problems"
+        },
+        {
+          "title": "Feature Engineering",
+          "description": "Master techniques for preparing and transforming data for ML models.",
+          "skills": ["Data Cleaning", "Feature Scaling", "Encoding", "Feature Selection"],
+          "tools": ["scikit-learn", "pandas", "feature-engine"],
+          "outcome": "Improve model performance through better features"
+        },
+        {
+          "title": "Statistical Analysis",
+          "description": "Learn hypothesis testing, A/B testing, and statistical inference.",
+          "skills": ["Hypothesis Testing", "A/B Testing", "Confidence Intervals", "P-values"],
+          "tools": ["SciPy", "statsmodels", "Python"],
+          "outcome": "Make data-driven decisions using statistical methods"
+        },
+        {
+          "title": "Kaggle Competitions",
+          "description": "Participate in 3-5 Kaggle competitions to apply ML skills.",
+          "skills": ["Model Tuning", "Ensemble Methods", "Competition Strategy"],
+          "tools": ["Kaggle", "XGBoost", "LightGBM"],
+          "outcome": "Build competitive ML models and earn Kaggle medals"
+        }
+      ],
+      "3": [
+        {
+          "title": "Deep Learning",
+          "description": "Master neural networks, CNNs, and RNNs using TensorFlow or PyTorch.",
+          "skills": ["Neural Networks", "CNNs", "RNNs", "Transfer Learning", "Model Training"],
+          "tools": ["TensorFlow", "PyTorch", "Keras", "GPU Computing"],
+          "outcome": "Build deep learning models for image and text data"
+        },
+        {
+          "title": "Natural Language Processing",
+          "description": "Learn text processing, sentiment analysis, and language models.",
+          "skills": ["Text Processing", "NLTK", "Transformers", "Word Embeddings"],
+          "tools": ["spaCy", "Hugging Face", "BERT", "GPT"],
+          "outcome": "Build NLP applications like chatbots and classifiers"
+        },
+        {
+          "title": "Big Data Tools",
+          "description": "Work with large-scale data using Spark and distributed computing.",
+          "skills": ["PySpark", "Distributed Computing", "Data Pipelines", "ETL"],
+          "tools": ["Apache Spark", "Hadoop", "Databricks"],
+          "outcome": "Process and analyze terabytes of data efficiently"
+        },
+        {
+          "title": "MLOps Fundamentals",
+          "description": "Learn to deploy and monitor ML models in production.",
+          "skills": ["Model Deployment", "API Creation", "Monitoring", "Version Control"],
+          "tools": ["Flask", "FastAPI", "Docker", "MLflow"],
+          "outcome": "Deploy ML models as production APIs"
+        }
+      ],
+      "4": [
+        {
+          "title": "Advanced Deep Learning",
+          "description": "Master GANs, transformers, and state-of-the-art architectures.",
+          "skills": ["GANs", "Transformers", "Attention Mechanisms", "Self-Supervised Learning"],
+          "tools": ["PyTorch", "Hugging Face", "Weights & Biases"],
+          "outcome": "Build cutting-edge AI models"
+        },
+        {
+          "title": "Computer Vision",
+          "description": "Specialize in image processing, object detection, and segmentation.",
+          "skills": ["Object Detection", "Image Segmentation", "YOLO", "Mask R-CNN"],
+          "tools": ["OpenCV", "Detectron2", "YOLO", "TensorFlow"],
+          "outcome": "Build computer vision applications"
+        },
+        {
+          "title": "Time Series Analysis",
+          "description": "Master forecasting techniques for temporal data.",
+          "skills": ["ARIMA", "Prophet", "LSTM", "Forecasting"],
+          "tools": ["Prophet", "statsmodels", "TensorFlow"],
+          "outcome": "Build accurate forecasting models"
+        },
+        {
+          "title": "Portfolio and Job Prep",
+          "description": "Create data science portfolio, prepare for interviews, and network.",
+          "skills": ["Technical Communication", "Case Studies", "Interview Skills"],
+          "tools": ["GitHub", "Kaggle", "LinkedIn", "Medium"],
+          "outcome": "Land data science roles at top companies"
+        }
       ]
     },
-    "3": {
-      "title": "Advanced Full-Stack Development",
-      "steps": [
-        "Learn React or another frontend framework.",
-        "Learn backend development with Flask or Node.js.",
-        "Work with databases like MySQL or MongoDB.",
-        "Build complete full-stack projects."
+    "Government Jobs": {
+      "description": "Prepare for competitive government examinations",
+      "1": [
+        {
+          "title": "GATE Foundation",
+          "description": "Build strong foundation in core engineering subjects for GATE exam.",
+          "skills": ["Engineering Mathematics", "Core Subjects", "Problem Solving"],
+          "tools": ["Made Easy", "ACE Academy", "Previous Year Papers"],
+          "outcome": "Complete 40% of GATE syllabus with conceptual clarity"
+        },
+        {
+          "title": "General Aptitude",
+          "description": "Master quantitative aptitude, logical reasoning, and verbal ability.",
+          "skills": ["Quantitative Aptitude", "Logical Reasoning", "Verbal Ability", "Data Interpretation"],
+          "tools": ["RS Aggarwal", "Arun Sharma", "Online Test Platforms"],
+          "outcome": "Score 80%+ in aptitude sections"
+        },
+        {
+          "title": "Current Affairs",
+          "description": "Stay updated with national and international current affairs.",
+          "skills": ["News Reading", "Current Affairs", "General Knowledge"],
+          "tools": ["The Hindu", "Indian Express", "PIB", "Current Affairs Apps"],
+          "outcome": "Build strong GK foundation for all exams"
+        },
+        {
+          "title": "Technical Writing",
+          "description": "Develop clear technical writing skills for descriptive answers.",
+          "skills": ["Answer Writing", "Technical Communication", "Time Management"],
+          "tools": ["Previous Year Question Papers", "Answer Writing Practice"],
+          "outcome": "Write structured technical answers"
+        }
+      ],
+      "2": [
+        {
+          "title": "GATE Intensive Preparation",
+          "description": "Complete GATE syllabus with focus on high-weightage topics.",
+          "skills": ["Advanced Engineering Topics", "Problem Solving", "Speed Accuracy"],
+          "tools": ["Standard Textbooks", "GATE Test Series", "Virtual Calculator"],
+          "outcome": "Complete 100% GATE syllabus and solve 500+ problems"
+        },
+        {
+          "title": "UPSC CSE Prelims",
+          "description": "Start preparation for UPSC Civil Services Preliminary examination.",
+          "skills": ["Indian Polity", "Geography", "History", "Economy", "Environment"],
+          "tools": ["NCERT Books", "Laxmikanth", "Ramesh Singh", "Vision IAS"],
+          "outcome": "Cover 60% of UPSC Prelims syllabus"
+        },
+        {
+          "title": "SSC Preparation",
+          "description": "Prepare for SSC CGL, CHSL, and other staff selection exams.",
+          "skills": ["Quantitative Aptitude", "English", "Reasoning", "GK"],
+          "tools": ["Adda247", "Testbook", "SSC Previous Papers"],
+          "outcome": "Clear SSC Tier-1 with good marks"
+        },
+        {
+          "title": "Mock Tests",
+          "description": "Take regular full-length mock tests for time management.",
+          "skills": ["Time Management", "Test Strategy", "Accuracy", "Revision"],
+          "tools": ["Online Test Platforms", "Previous Year Papers"],
+          "outcome": "Improve accuracy to 85%+ in mocks"
+        }
+      ],
+      "3": [
+        {
+          "title": "GATE Advanced Topics",
+          "description": "Master advanced topics and take intensive test series.",
+          "skills": ["Advanced Problem Solving", "Speed Calculation", "Elimination Techniques"],
+          "tools": ["Made Easy Test Series", "ACE Test Series", "Standard Books"],
+          "outcome": "Score 55+ marks in GATE to qualify for PSUs"
+        },
+        {
+          "title": "PSU Preparation",
+          "description": "Prepare specifically for PSU recruitment through GATE.",
+          "skills": ["Technical Knowledge", "HR Interview Skills", "Company Research"],
+          "tools": ["PSU Previous Papers", "Company Websites"],
+          "outcome": "Get shortlisted in top PSUs like ONGC, NTPC, BHEL"
+        },
+        {
+          "title": "UPSC Mains Preparation",
+          "description": "Focus on UPSC Mains answer writing and optional subject.",
+          "skills": ["Answer Writing", "Essay Writing", "Optional Subject", "Ethics"],
+          "tools": ["Standard Books", "Answer Writing Practice", "Mentor Guidance"],
+          "outcome": "Clear UPSC Mains examination"
+        },
+        {
+          "title": "Banking and Insurance Exams",
+          "description": "Prepare for IBPS, SBI, and insurance sector exams.",
+          "skills": ["Banking Awareness", "Financial Knowledge", "Speed Math"],
+          "tools": ["Oliveboard", "Gradeup", "Banking Books"],
+          "outcome": "Clear bank PO or clerk examinations"
+        }
+      ],
+      "4": [
+        {
+          "title": "UPSC Interview Preparation",
+          "description": "Prepare for UPSC personality test with mock interviews.",
+          "skills": ["Personality Development", "Current Affairs", "Communication", "DAF Preparation"],
+          "tools": ["Mock Interview Panels", "Personality Development Books"],
+          "outcome": "Clear UPSC interview and get final rank"
+        },
+        {
+          "title": "State Service Exams",
+          "description": "Prepare for state PSC examinations as backup.",
+          "skills": ["State-Specific Topics", "Local Current Affairs", "State Administration"],
+          "tools": ["State PSC Materials", "Regional Newspapers"],
+          "outcome": "Clear state civil services"
+        },
+        {
+          "title": "Defense Services",
+          "description": "Prepare for CDS, AFCAT, and NDA if interested.",
+          "skills": ["Military Aptitude", "Physical Fitness", "SSB Preparation"],
+          "tools": ["CDS Study Materials", "SSB Guides", "Physical Training"],
+          "outcome": "Clear defense services exams"
+        },
+        {
+          "title": "Final Exam Strategy",
+          "description": "Take all targeted exams with proper strategy and preparation.",
+          "skills": ["Exam Strategy", "Revision Techniques", "Stress Management"],
+          "tools": ["Revision Notes", "Final Test Series", "Previous Ranks Analysis"],
+          "outcome": "Secure government job in targeted department"
+        }
       ]
     },
-    "4": {
-      "title": "Industry-Ready Software Engineer",
-      "steps": [
-        "System design basics.",
-        "Advanced DSA and competitive programming.",
-        "Internships, open-source contributions.",
-        "Prepare for interviews and real-world projects."
+    "Higher Studies": {
+      "description": "Pursue masters or PhD for research and academia",
+      "1": [
+        {
+          "title": "Academic Excellence",
+          "description": "Maintain high CGPA and build strong fundamentals in core subjects.",
+          "skills": ["Subject Mastery", "Study Techniques", "Time Management"],
+          "tools": ["Standard Textbooks", "NPTEL Lectures", "Study Groups"],
+          "outcome": "Achieve 8.5+ CGPA in first year"
+        },
+        {
+          "title": "Research Introduction",
+          "description": "Learn basics of research methodology and academic writing.",
+          "skills": ["Research Methods", "Literature Review", "Academic Writing"],
+          "tools": ["Google Scholar", "Research Papers", "LaTeX"],
+          "outcome": "Understand research process and write first paper review"
+        },
+        {
+          "title": "English Proficiency",
+          "description": "Start preparing for TOEFL or IELTS for international universities.",
+          "skills": ["English Vocabulary", "Reading Comprehension", "Writing", "Speaking"],
+          "tools": ["Magoosh", "Official TOEFL/IELTS Materials", "English Apps"],
+          "outcome": "Build foundation for 100+ TOEFL or 7+ IELTS"
+        },
+        {
+          "title": "Identify Research Interest",
+          "description": "Explore different research areas through courses and reading.",
+          "skills": ["Exploration", "Critical Thinking", "Domain Research"],
+          "tools": ["Online Courses", "Research Websites", "Faculty Consultations"],
+          "outcome": "Shortlist 2-3 research areas of interest"
+        }
+      ],
+      "2": [
+        {
+          "title": "GRE Preparation",
+          "description": "Intensively prepare for GRE exam for MS admissions.",
+          "skills": ["Quantitative Reasoning", "Verbal Reasoning", "Analytical Writing"],
+          "tools": ["Manhattan Prep", "Magoosh", "ETS Official Guide"],
+          "outcome": "Score 320+ in GRE examination"
+        },
+        {
+          "title": "Research Projects",
+          "description": "Work on 1-2 research projects with professors or independently.",
+          "skills": ["Research Methodology", "Experimentation", "Data Analysis", "Documentation"],
+          "tools": ["MATLAB", "Python", "Research Tools", "Lab Equipment"],
+          "outcome": "Complete research projects and document findings"
+        },
+        {
+          "title": "Publication Attempt",
+          "description": "Try to publish research work in conferences or journals.",
+          "skills": ["Paper Writing", "Submission Process", "Peer Review Understanding"],
+          "tools": ["IEEE", "Springer", "Conference Websites", "LaTeX"],
+          "outcome": "Submit papers to conferences or journals"
+        },
+        {
+          "title": "University Research",
+          "description": "Research potential universities and professors for MS or PhD.",
+          "skills": ["University Analysis", "Professor Research", "Program Comparison"],
+          "tools": ["University Websites", "Yocket", "GradCafe"],
+          "outcome": "Shortlist 15-20 universities for applications"
+        }
+      ],
+      "3": [
+        {
+          "title": "Statement of Purpose",
+          "description": "Write compelling SOP highlighting research interests and goals.",
+          "skills": ["Academic Writing", "Self-Presentation", "Goal Articulation"],
+          "tools": ["SOP Guides", "Professor Reviews", "Writing Centers"],
+          "outcome": "Create strong SOP that stands out"
+        },
+        {
+          "title": "Letters of Recommendation",
+          "description": "Build relationships with professors for strong recommendation letters.",
+          "skills": ["Networking", "Academic Relationships", "Professional Communication"],
+          "tools": ["Email Communication", "Academic Meetings"],
+          "outcome": "Secure 3 strong letters of recommendation"
+        },
+        {
+          "title": "Advanced Research",
+          "description": "Work as research assistant or complete thesis project.",
+          "skills": ["Independent Research", "Advanced Analysis", "Technical Writing"],
+          "tools": ["Research Software", "Lab Resources", "Collaboration Tools"],
+          "outcome": "Complete significant research contributing to field"
+        },
+        {
+          "title": "Funding Applications",
+          "description": "Apply for scholarships, fellowships, and assistantships.",
+          "skills": ["Scholarship Research", "Application Writing", "Financial Planning"],
+          "tools": ["Scholarship Databases", "University Funding Pages"],
+          "outcome": "Secure funding for graduate studies"
+        }
+      ],
+      "4": [
+        {
+          "title": "University Applications",
+          "description": "Apply to 10-15 universities with complete application packages.",
+          "skills": ["Application Management", "Document Preparation", "Deadlines Management"],
+          "tools": ["Application Portals", "Document Tracking", "Calendar"],
+          "outcome": "Submit all applications before deadlines"
+        },
+        {
+          "title": "Interview Preparation",
+          "description": "Prepare for PhD interviews and MS program discussions.",
+          "skills": ["Interview Skills", "Research Presentation", "Academic Discussion"],
+          "tools": ["Mock Interviews", "Presentation Tools", "Research Updates"],
+          "outcome": "Clear interviews successfully"
+        },
+        {
+          "title": "Visa Process",
+          "description": "Complete visa application process for selected country.",
+          "skills": ["Visa Documentation", "Interview Preparation", "Financial Proof"],
+          "tools": ["Embassy Websites", "Visa Consultants", "Document Checklist"],
+          "outcome": "Obtain student visa for chosen university"
+        },
+        {
+          "title": "Transition Planning",
+          "description": "Prepare for move abroad including accommodation, insurance, and orientation.",
+          "skills": ["Planning", "Budgeting", "Cross-Cultural Preparation"],
+          "tools": ["University Resources", "Student Forums", "Moving Checklists"],
+          "outcome": "Successfully transition to graduate school"
+        }
       ]
     }
   }
 }
-
